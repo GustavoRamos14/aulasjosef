@@ -12,20 +12,20 @@ import { styles } from './styles';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { alcool: 0, gasolina: 0, resultado: 0, resultadoText: '' };
-    this.calcular = this.calcular.bind(this);
+    this.state = { alc: 0, gasol: 0, result: 0, resultText: '' };
+    this.calcula = this.calcula.bind(this);
   }
-  calcular() {
-    let calc = this.state.alcool / this.state.gasolina;
+  calcula() {
+    let calcu = this.state.alc / this.state.gasol;
 
-    let c = this.state;
+    let x = this.state;
 
-    c.resultado = calc;
+    x.resultado = calcu;
 
-    if (c.resultado < 0.7) {
-      c.resultadoText = 'o derivado da cana-de-açúcar é o melhor para abastecer';
+    if (x.resultado < 0.7) {
+      x.resultadoText = 'o derivado da cana-de-açúcar(alcool) é o melhor para abastecer';
     } else {
-      c.resultadoText = 'Gasolina é melhor.';
+      x.resultadoText = 'Gasolina é melhor.';
     }
 
     this.setState(c);
@@ -41,19 +41,19 @@ export default class App extends React.Component {
           </Text>
           <TextInput
             style={styles.input}
-            placeholder="Preço do Alcool: "
+            placeholder="Preço  Alcool: "
             keyboardType="numeric"
             onChangeText={(alcool) => {
-              this.setState({ alcool });
+              this.setState({ alc });
             }}
           />
           <TextInput
             style={styles.input}
             autoCapitalize="none"
-            placeholder="Preço da gasolina:"
+            placeholder="Preço  gasolina:"
             keyboardType="numeric"
             onChangeText={(gasolina) => {
-              this.setState({ gasolina });
+              this.setState({ gasol });
             }}
           />
         </View>
