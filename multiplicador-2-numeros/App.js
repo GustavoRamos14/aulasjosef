@@ -12,14 +12,14 @@ import { styles } from './styles';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { n1: 0, n2: 0, resultado: 0, resultadoText: '' };
-    this.calcular = this.calcular.bind(this);
+    this.state = { a: 0, b: 0, resul: 0, resulText: '' };
+    this.calcula = this.calcula.bind(this);
   }
   calcular() {
-    let mult = this.state.n1 * this.state.n2;
-    let c = this.state;
-    c.resultado = mult;
-    this.setState(c);
+    let multi = this.state.a * this.state.b;
+    let x = this.state;
+    x.resul = mult;
+    this.setState(x);
   }
 
   render() {
@@ -31,7 +31,7 @@ export default class App extends React.Component {
           </Text>
           <TextInput
           style={styles.input}
-            placeholder="Digite o primeiro numero: "
+            placeholder="Digite um primeiro numero: "
             keyboardType="numeric"
             onChangeText={(n1) => {
               this.setState({ n1 });
@@ -40,7 +40,7 @@ export default class App extends React.Component {
           <TextInput
           style={styles.input}
             autoCapitalize="none"
-            placeholder="Digite o segundo numero:"
+            placeholder="Digite  um segundo numero:"
             keyboardType="numeric"
             onChangeText={(n2) => {
               this.setState({ n2 });
