@@ -28,7 +28,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Tênis Nike Revolution 6 Next Nature Masculino - Vermelho+Branco
+              volante thurstmaster t150 com pedais - preto
             </Text>
             <Text
               style={{
@@ -36,12 +36,12 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              A partir de R$ 249,99{' '}
+              A partir de R$ 2249,99{' '}
             </Text>
           </View>
           <View style={styles.box2}>
             <Image
-              source={require('./assets/download.jpeg')}
+              source={require('.https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thrustmaster.com%2Fpt-br%2Fproducts%2Ft150-force-feedback%2F&psig=AOvVaw2a3vy4sesmleRIz38hkuMK&ust=1664657638205000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJDWl46zvfoCFQAAAAAdAAAAABAD')}
               style={{ width: 250, height: 200 }}
             />
             <Text
@@ -50,10 +50,10 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Bicicleta Caloi Vulcan
+              Beliche
             </Text>
             <Text style={{ textAlign: 'center', color: 'white' }}>
-              'Aro 29 com 21 Velocidades'
+              'de 2 andares'
             </Text>
             <Text
               style={{
@@ -66,7 +66,7 @@ class App extends Component {
           </View>
           <View style={styles.box3}>
             <Image
-              source={require('./assets/relogio.jpeg')}
+              source={require('.https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.magazineluiza.com.br%2Fbusca%2Fbeliche%2B2%2F&psig=AOvVaw1w92u6AuSZDu-v-m_iArO8&ust=1664657761252000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCMikq8ezvfoCFQAAAAAdAAAAABAH')}
               style={{ width: 250, height: 200 }}
             />
             <Text
@@ -75,7 +75,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Relógio Smartwatch Redplace Inteligente - Preto
+              Relógio - Preto
             </Text>
             <Text
               style={{
@@ -83,7 +83,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              R$ 199,90{' '}
+              R$ 299,90{' '}
             </Text>
           </View>
         </ScrollView>
