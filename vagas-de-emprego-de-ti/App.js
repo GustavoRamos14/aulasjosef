@@ -25,7 +25,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Desenvolvedor BackEnd
+              Desenvolvedor FrontEnd
             </Text>
             <Text>{'\n'}</Text>
             <Text
@@ -34,7 +34,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Salário: R$: 3000,00
+              Salário: R$: 4000,00
             </Text>
             <Text>{'\n'}</Text>
             <Text
@@ -63,7 +63,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Engenheiro de Dados
+              programador em java
             </Text>
             <Text>{'\n'}</Text>
             <Text
@@ -72,7 +72,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Salário: R$: 3000,00
+              Salário: R$: 6000,00
             </Text>
             <Text>{'\n'}</Text>
             <Text
@@ -90,7 +90,7 @@ class App extends Component {
                 textTransform: 'capitalize',
                 color: 'white',
               }}>
-              Contato: +55 (99) 99999-999.
+              Contato: +55 (93) 99999-999.
             </Text>
           </View>
         </ScrollView>
