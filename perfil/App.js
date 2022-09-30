@@ -7,20 +7,20 @@ class App extends Component {
       <View>
         <Text>{'\n'}</Text>
         <Text style={{ color: '#FF0000', fontSize: 25, margin: 15 }}>
-          App Meu Perfil
+           Meu Perfil
         </Text>
 
         <Image
-          source={require('./assets/lucas.png')}
+          source={require('')}
           style={{ width: 300, height: 300 }}
         />
 
         <Text>{'\n'}</Text>
-        <Text>Nome: Lucas dos santos reis</Text>
-        <Text>Idade: 24 anos</Text>
+        <Text>Nome: Gustavo Ramos </Text>
+        <Text>Idade: 25 anos</Text>
         <Text>Formação: Ensino Medio </Text>
-        <Text>Experiencia: Eventos</Text>
-        <Text>Projetos: Sistemas para Web com PHP/LARAVEL</Text>
+        <Text>Experiencia: banco de dados</Text>
+        <Text>Projetos: Otimizaçao do IOT  industrialmente e domesticamente</Text>
       </View>
     );
   }
