@@ -12,8 +12,8 @@ import { styles } from './styles';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { altura: 0, peso: 0, resultado: 0, resultadoText: '' };
-    this.calcular = this.calcular.bind(this);
+    this.state = { altura: 0, peso: 0, result: 0, resultText: '' };
+    this.calcula = this.calcula.bind(this);
   }
   calcular() {
     let imc = this.state.peso / (this.state.altura * this.state.altura);
@@ -53,7 +53,7 @@ export default class App extends React.Component {
           </Text>
           <TextInput
             style={styles.input}
-            placeholder="Digite sua altura: "
+            placeholder="Digite  altura: "
             keyboardType="numeric"
             onChangeText={(altura) => {
               this.setState({ altura });
@@ -62,7 +62,7 @@ export default class App extends React.Component {
           <TextInput
             style={styles.input}
             autoCapitalize="none"
-            placeholder="Digite o seu peso:"
+            placeholder="Digite seu peso:"
             keyboardType="numeric"
             onChangeText={(peso) => {
               this.setState({ peso });
